@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background-color: #636e72;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: nowrap;
+}
+
+.get {
+    display: flex;
+    position: relative;
+    width: 300px;
+}
+
+.get label {
+    color: #00ebcb;
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+.get input[type="text"] {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border-width: 3px;
+    border-color: #09428d8f;
+    background-color: #0a5ebe5e;
+    color: #ffffff;
+    text-align: center;
+    border-style: groove;
+    border-radius: 49px;
+    box-shadow: 0px 0px 5px #424242;
+    text-shadow: 0px 0px 5px #424242bf;
+    transition: all .2s ease;
+}
+
+.get input[type="text"]:focus {
+    padding: 15px 0;
+}
+
+.get input[type="button"] {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0;
+    border: solid 2px #82ccdd;
+    border-radius: 10px;
+    background-color: #00f7ff;
+    color: #063300;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.get input[type="button"]:hover {
+    background: linear-gradient(to bottom, #00f7ff 5%, #00ffd5 100%);
+    background-color: #00f7ff;
+}
+
+.get input[type="button"]:active {
+    position: relative;
+    top: 1px;
+    color: #00861dc2;
+}
+
+#message {
+    position: absolute;
+    top: 100px;
+    color: antiquewhite;
+    left: 10px;
+    font-size: 1.5em;
+}
+
+::placeholder {
+    color: #fff;
+}
